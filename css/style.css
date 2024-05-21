@@ -1,0 +1,53 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.title
+{
+
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+}
+.brdr
+{
+    border-top: 1px solid rgba(0,0,0,1);
+}
+.container h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+.container h2 
+{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+}
+.mysubmit
+{
+    color:#fff;
+    background-color: #d1512d ;
+    border-color: red ;
+   
+}
+    
+.btn:hover {
+    background-color:  #d1512d;
+}
+
+.container
+{
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
+
